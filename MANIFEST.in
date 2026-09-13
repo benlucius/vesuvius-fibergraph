@@ -1,0 +1,15 @@
+include LICENSE
+include README.md
+include THIRD_PARTY_DATA.md
+include CHANGELOG.md
+include RELEASE_CHECKLIST.md
+include RELEASE_NOTES.md
+include GATE1_STATUS.md
+include GATE2_ADAPTER_STATUS.md
+include PHASE0_STATUS.md
+recursive-include scripts *.py
+recursive-include data *.json
+recursive-include results *.json *.txt *.npz
+recursive-include results/vc3d_seed_bundle *.json
+recursive-include tests *.py
+recursive-include tests/fixtures *.nml
